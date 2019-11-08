@@ -1,1 +1,26 @@
 // Mixins Here
+
+//SECTION THEME------
+.section-theme(@direction, @width, @justify, @align, @padding){
+	flex-direction: @direction;
+	width: @width;
+	justify-content: @justify;
+	align-items: @align;
+	padding: @padding;
+}
+//------------------
+//DISPLAY NONE------
+.display(){
+    display:none;
+}
+//------------------
+
+//BUTTON THEME
+.btn-theme(@background, @color:@porcelain, @padding, @radius, @align, @width){
+    background-color: @background;
+    color:@color;
+    padding:@padding;
+    border-radius:@radius;
+    text-align:@align;
+    width:@width;
+}
