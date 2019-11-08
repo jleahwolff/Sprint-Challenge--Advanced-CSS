@@ -32,15 +32,24 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
+
+Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 1. What is the difference between an adaptive website and a fully responsive website?
+    1. Adaptive Website creates a separate website layout for each type of device available.  The elements are catered to fit that specific device, and so there are several website versions for one website.  
+    2. Responsive Website: are one central website which elements are fluid to multiple devices.  Each element is altered to match the device size depending on which device you are using, but information on the website will change together since it is one website.
 
-2. Describe what it means to be mobile first vs desktop first.
-
-3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
-
-4. How would you describe preprocessing to someone new to CSS?
-
-5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+1. Describe what it means to be mobile first vs desktop first.
+    1. Mobile First is creating a website which if first designed for the use on a phone.  We are using Web First in WEB26, so when we set our Escape Mixin to ~”(max-width:500px)”, we are altering our website to fit a mobile screen.  If it were designed for a mobile first, you would use min-width instead to alter your page to a website.  
+2. What does font-size: 62.5% in the html tag do for us when using rem units?
+    1. We know that a website is traditionally using a size 16 font, so when we set it to 62.5%, we can use 1rem = 10pt font. 1.5rem=15pt font and so on.  
+3. How would you describe preprocessing to someone new to CSS?
+    1. Preprocessing is the ability to monitor, organize and compile your CSS. 
+        1. The organization is much better using LESS by separating folders into sections designed to match the section of your website you are working on, and the ability to use mixins and variables to change the code in one central location which can be used in various spots in the website. 
+        2. Monitoring and Compiling your LESS files through your terminal sends any edits in the organized files directly to the CSS, without having to open another request, so you can import all files without affecting the speed of your website.  
+4. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+    1. Favorite: My favorite is the Parametric Mixins, with a single line of code, you can remove so many lines in various elements.  Being able to solve the problem in one spot reduced my chances of screwing up my own code immensely.  I was able to work much faster, and sort through my code like a breeze without having to scroll. 
+        1. Also, the terminal TELLING ME where the issue is.  WOW! Game changer. 
+    2. Most Trouble: The most trouble I had was probably the nesting.  I caught myself over thinking some of the simple things. The @media tags were one nesting order that I wanted to give myself extra time to figure out so I made sure to study that before this Sprint.  
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
